@@ -1,0 +1,15 @@
+.agenda-container {
+  padding: 1rem;
+}
+
+.agenda-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .agenda-container ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
